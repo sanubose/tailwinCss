@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 flex justify-center items-center min-h-screen">
+
+  <div class="w-80 bg-white rounded-3xl p-4 shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+
+    <!-- Image -->
+    <img
+      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500"
+      alt="Profile"
+      class="w-full h-72 object-cover rounded-3xl"
+    >
+
+    <!-- Name -->
+    <div class="flex items-center gap-2 mt-5">
+      <h2 class="text-3xl font-bold">
+        Sophie Bennett
+      </h2>
+
+      <span
+        class="w-7 h-7 bg-green-500 rounded-full flex justify-center items-center text-white text-sm">
+        ✔
+      </span>
+    </div>
+
+    <!-- Description -->
+    <p class="text-gray-500 mt-3 leading-7 text-lg">
+      Product Designer who focuses on simplicity & usability.
+    </p>
+
+    <!-- Bottom -->
+    <div class="flex justify-between items-center mt-6">
+
+      <!-- Stats -->
+      <div class="flex gap-6">
+
+        <div class="flex items-center gap-2">
+          <span>👤</span>
+          <span class="font-semibold">312</span>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <span>📁</span>
+          <span class="font-semibold">48</span>
+        </div>
+
+      </div>
+
+      <!-- Button -->
+      <button
+        class="px-6 py-2 rounded-full bg-white shadow-md font-semibold hover:bg-black hover:text-white transition duration-300">
+        Follow +
+      </button>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
